@@ -4,11 +4,15 @@
   "description": "simple-server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bufferutil": "^4.0.7",
+    "express": "^4.18.2",
+    "utf-8-validate": "^6.0.3",
     "ws": "^8.13.0"
-  }
+  },
+  "keywords": []
 }
