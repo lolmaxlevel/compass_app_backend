@@ -1,5 +1,5 @@
-var webSocketServer = new (require('ws')).Server({port: 9000}),
-    webSockets = {} // userID: webSocket
+const webSocketServer = new (require('ws')).Server({port: 9000}),
+	webSockets = {}; // userID: webSocket
 
 connections = {}
 console.log("server started on :9000")
